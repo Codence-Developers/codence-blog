@@ -11,7 +11,7 @@ FMS_USER=""
 FMS_PASS=""
 
 # Flag file created by certbot deploy-hook.
-FLAG_FILE=/home/ubuntu/sslDeployFlag
+FLAG_FILE=/home/ubuntu/sslDeploy_true
 ################################################
 
 
@@ -22,9 +22,6 @@ FLAG_FILE=/home/ubuntu/sslDeployFlag
 FMS="/opt/FileMaker/FileMaker Server"
 ################################################
 
-################################################
-# User configuration is not required beyond this point.
-################################################
 
 # If [the flag file does not exist] exit the script.
 if [ ! -f "$FLAG_FILE" ]; then
